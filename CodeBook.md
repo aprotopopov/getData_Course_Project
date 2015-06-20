@@ -27,12 +27,12 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 ======================================
-For each record it is provided:
+Describing record:
 ======================================
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 66-feature vector with time and frequency domain variables. 
-- Features are normalized and bounded within [-1,1] 
+- Features are normalized and bounded within [-1,1].
 ======================================
 tBodyAcc.mean...X
   mean value
