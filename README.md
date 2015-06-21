@@ -1,7 +1,7 @@
-==================================================================
+
 ## Get tidy data from UCI HAR Dataset
-==================================================================
-If you don't have this dataset you could download it and then unzipped:
+
+If you don't have this dataset you could download it and then unzip:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ---
@@ -17,7 +17,7 @@ Merging 2 data frames to df with rbind. Dataframe size 10299x563
 Read column names from file features.txt and set df column names accordingly to features.txt using function make.names to do unique and valid names.
 
 ### Step 2
-Extract only column which contain only mean and std values
+Extract only column which contain only mean and std values.
 
 ### Step 3
 Setting appropriately labels the data set with descriptive variable names with gsub and activity_labels.txt file.
