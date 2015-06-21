@@ -4,6 +4,8 @@
 If you don't have this dataset you could download it and then unzipped:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+---
+
 ## Description of run_analysis.R script
 Variable pathToDataSet is setted to location of Dataset
 Then read files from test/X_test.txt and train/X_train.txt, add appropriate columns for datasets from activities and subjects. 
@@ -23,3 +25,8 @@ Setting appropriately labels the data set with descriptive variable names with g
 ### Step 5
 Then aggregate data according to unique activities and subjects, calculate mean values and choose only mean and std contain columns. Total size of data frame 180x66.
 Save data frame with function write.table to file tidyData.txt
+
+---
+
+## Description of makeCookBookTable.R script
+This script produce table with description of variables from tidyData.txt.  Output of the script saved in the file codeBookTable.txt. Quotes should be deleted after file generation while inserted in file CodeBook.md. Whole table is inserted at the end of the CookBook.md file. 
